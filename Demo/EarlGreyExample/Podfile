@@ -25,16 +25,10 @@ TEST_TARGET_SWIFT = 'EarlGreyExampleSwiftTests'
 SCHEME_FILE_SWIFT = 'EarlGreyExampleSwiftTests.xcscheme'
 
 target TEST_TARGET do
-  project PROJECT_NAME
-
-  inherit! :search_paths
   pod 'EarlGrey'
 end
 
 target TEST_TARGET_SWIFT do
-  project PROJECT_NAME
-
-  inherit! :search_paths
   pod 'EarlGrey'
 end
 

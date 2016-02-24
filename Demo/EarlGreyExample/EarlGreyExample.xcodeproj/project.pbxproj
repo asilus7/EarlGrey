@@ -13,9 +13,11 @@
 		2CB7315B1C29E8F400CF35C1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F5A53591ADE670C00F81DF0 /* Main.storyboard */; };
 		2CE7FA481C35AAB00079DE2F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE7FA471C35AAB00079DE2F /* ViewController.swift */; };
 		2CE7FA491C35AAB00079DE2F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE7FA471C35AAB00079DE2F /* ViewController.swift */; };
+		5F383560EE901DBC058532B9 /* EarlGrey.framework in EarlGrey Copy Files */ = {isa = PBXBuildFile; fileRef = 69B81036A692CA2C3C1151B6 /* EarlGrey.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		5F5A537E1ADE67D500F81DF0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F5A537D1ADE67D500F81DF0 /* AppDelegate.swift */; };
 		5F99610B1AE0CF4F0034F503 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F9961061AE0CF4F0034F503 /* Images.xcassets */; };
 		5FDE055D1B0DAA090037B82F /* EarlGreyExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FDE055C1B0DAA090037B82F /* EarlGreyExampleTests.m */; };
+		636D816E9F1875AAEFCBB358 /* EarlGrey.framework in EarlGrey Copy Files */ = {isa = PBXBuildFile; fileRef = 67CABAF12F11F5BF4C2CA481 /* EarlGrey.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		B138493F020E5722396DA089 /* libPods-EarlGreyExampleTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D46EAF7D333CC260482B66F /* libPods-EarlGreyExampleTests.a */; };
 		D72CF3BA7F23B2D76BDB796B /* libPods-EarlGreyExampleSwiftTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CE5C2CF8BE11314537DC2497 /* libPods-EarlGreyExampleSwiftTests.a */; };
 /* End PBXBuildFile section */
@@ -37,6 +39,31 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		0D31369B9FA15EB9D90C2EA4 /* EarlGrey Copy Files */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(TEST_HOST)/../";
+			dstSubfolderSpec = 0;
+			files = (
+				636D816E9F1875AAEFCBB358 /* EarlGrey.framework in EarlGrey Copy Files */,
+			);
+			name = "EarlGrey Copy Files";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A60D5E2EF7ACB580C37B4ECC /* EarlGrey Copy Files */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(TEST_HOST)/../";
+			dstSubfolderSpec = 0;
+			files = (
+				5F383560EE901DBC058532B9 /* EarlGrey.framework in EarlGrey Copy Files */,
+			);
+			name = "EarlGrey Copy Files";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		14B7C7CB16519288F6A8197D /* Pods-EarlGreyExampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EarlGreyExampleTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-EarlGreyExampleTests/Pods-EarlGreyExampleTests.release.xcconfig"; sourceTree = "<group>"; };
 		2C2C13E81C346CAB006F467D /* BridgingHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BridgingHeader.h; sourceTree = "<group>"; };
@@ -56,6 +83,8 @@
 		5FDE05581B0DAA090037B82F /* EarlGreyExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EarlGreyExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5FDE055C1B0DAA090037B82F /* EarlGreyExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EarlGreyExampleTests.m; sourceTree = "<group>"; };
 		5FE4B5D7B5765034B220C51F /* Pods-EarlGreyExampleSwiftTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EarlGreyExampleSwiftTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EarlGreyExampleSwiftTests/Pods-EarlGreyExampleSwiftTests.debug.xcconfig"; sourceTree = "<group>"; };
+		67CABAF12F11F5BF4C2CA481 /* EarlGrey.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EarlGrey.framework; path = "${SRCROOT}/Pods/EarlGrey/EarlGrey-1.0.0/EarlGrey.framework"; sourceTree = SRCROOT; };
+		69B81036A692CA2C3C1151B6 /* EarlGrey.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EarlGrey.framework; path = "${SRCROOT}/Pods/EarlGrey/EarlGrey-1.0.0/EarlGrey.framework"; sourceTree = SRCROOT; };
 		6F7D181E51534A271B63232D /* Pods-EarlGreyExampleSwiftTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EarlGreyExampleSwiftTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-EarlGreyExampleSwiftTests/Pods-EarlGreyExampleSwiftTests.release.xcconfig"; sourceTree = "<group>"; };
 		8D46EAF7D333CC260482B66F /* libPods-EarlGreyExampleTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-EarlGreyExampleTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE5C2CF8BE11314537DC2497 /* libPods-EarlGreyExampleSwiftTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-EarlGreyExampleSwiftTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -128,6 +157,8 @@
 				5F5A53791ADE67D500F81DF0 /* EarlGreyExampleSwift.app */,
 				5FDE05581B0DAA090037B82F /* EarlGreyExampleTests.xctest */,
 				2CB7314D1C29E54A00CF35C1 /* EarlGreyExampleSwiftTests.xctest */,
+				67CABAF12F11F5BF4C2CA481 /* EarlGrey.framework */,
+				69B81036A692CA2C3C1151B6 /* EarlGrey.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -194,6 +225,7 @@
 				2CB7314B1C29E54A00CF35C1 /* Resources */,
 				FB6BD5CE1AEFEF9A71982797 /* Embed Pods Frameworks */,
 				DDEC9CF1B0D4F54C1B412C58 /* Copy Pods Resources */,
+				A60D5E2EF7ACB580C37B4ECC /* EarlGrey Copy Files */,
 			);
 			buildRules = (
 			);
@@ -232,6 +264,7 @@
 				5FDE05561B0DAA090037B82F /* Resources */,
 				D79A64509DEFA5F223AF6416 /* Embed Pods Frameworks */,
 				9D3EB4BFF27FE8ED94A60C21 /* Copy Pods Resources */,
+				0D31369B9FA15EB9D90C2EA4 /* EarlGrey Copy Files */,
 			);
 			buildRules = (
 			);

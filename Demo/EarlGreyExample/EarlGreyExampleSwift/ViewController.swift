@@ -35,7 +35,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     // Change label to identify this button more easily for the layout test
     send.accessibilityLabel = "SendForLayoutTest"
     self.view.addSubview(send)
-    let send2 = createButton("Send")
+    let send2 = createButton("Send2")
     sendMessageView.addSubview(send2)
 
     // Create a UITableView to send some elements out of the screen
